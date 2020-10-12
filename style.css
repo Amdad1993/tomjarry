@@ -1,0 +1,129 @@
+#maindiv{
+width: 960px;
+height:500px;
+background-image: url('img/bg.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+
+background-size: 960px 500px;
+margin: 50px auto;
+overflow:hidden;
+position: relative;
+
+}
+
+.box1{
+
+    width: 200px;
+    height: 200px;
+
+    animation-name: tom;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+    z-index: 2;
+    position: relative;
+   
+
+}
+.img1{
+    width: 200px;
+    height: 200px;
+  
+   
+ 
+
+}
+.img2{
+    width: 100px;
+    height: 80px;
+   
+
+}
+@keyframes tom{
+    0%{ transform: translate(960px , 200px);}
+  
+    100%{ transform: translate(100px , 200px);}
+
+}
+
+
+
+
+.box2{
+
+    width: 200px;
+    height: 200px;
+
+    animation-name: jarry;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes jarry{
+
+    0%{ transform: translate(800px , 160px);}
+  
+    100%{ transform: translate(-100px , 120px);}
+
+
+}
+
+
+.box3{
+
+    width: 300px;
+    height: 200px;
+
+    animation-name: dog;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+
+    z-index: 1;
+    position: absolute;
+   
+}
+
+.img3{
+    width: 180px;
+    height: 100px;
+   
+ 
+
+}
+
+@keyframes dog{
+    0%{ transform: translate(400px , -200px);}
+  
+    50%{ transform: translate(400px , -150px);}
+    100%{ transform: translate(400px , -200px);}
+
+}
+.box4{
+
+    width: 200px;
+    height: 200px;
+
+    animation-name: duck;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+
+    
+    position: absolute;
+}
+.img4{
+    width: 120px;
+    height: 70px;
+    overflow: hidden;
+ 
+
+}
+
+@keyframes duck{
+    0%{ transform: translate(-80px , -400px);}
+  
+    100%{ transform: translate(980px ,-300px);}
+
+}
+
